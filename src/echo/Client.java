@@ -43,11 +43,7 @@ public class Client {
 		
 		// 스캐너 준비
 		Scanner sc = new Scanner(System.in);
-		/*
-		InputStream sin = System.in;
-		InputStreamReader sisr = new InputStreamReader(sin, "MS949");
-		BufferedReader sbr =  new BufferedReader(sisr);
-		*/
+
 		while (true) {
 			//메세지 키보드로 입력받기
 			String msg = sc.nextLine(); // 입력대기
